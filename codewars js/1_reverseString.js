@@ -1,3 +1,4 @@
+// Сам сделал
 const str = prompt('Введите строку', '');
 
 const solution = (str) => {
@@ -9,3 +10,9 @@ const solution = (str) => {
 };
 
 solution(str);
+
+// После ревью Мирика
+
+const solutionNew = (str) => str.split("").reverse().join("");
+
+console.log(solutionNew(str));
